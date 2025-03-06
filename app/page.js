@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react"
 import RecipeList from "@/components/recipe-list"
 import SeedDatabase from "@/scripts/seed-database"
-import RecipePDFButton from "@/components/recipe-pdf" // Import the PDF button component
-import { supabase } from "@/lib/supabase" // Assuming you have a Supabase client
+import RecipePDFButton from "@/components/recipe-pdf"
+import { supabase } from "@/lib/supabase"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       try {
         const { data, error } = await supabase.from("recipes").select("*")
         if (error) throw error
-        setRecipes(data)
+        setRecipes(data || []) // Ensure recipes is an array even if data is null
       } catch (err) {
         console.error("Error fetching recipes:", err)
         setError("Error al cargar las recetas")
@@ -38,27 +38,30 @@ export default function Home() {
       </div>
 
       <div className="flex justify-between items-center">
-        <Card className="w-full">
-          <CardHeader>
-            <CardTitle>Inicialización de la Base de Datos</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p className="mb-4 text-gray-500">
-              Si es la primera vez que usas la aplicación, haz clic en el botón para inicializar la base de datos con las recetas.
-            </p>
-            <SeedDatabase />
-          </CardContent>
-        </Card>
-        {/* Add the RecipePDFButton here */}
+        {/* Show initializer only if no recipes are loaded and no error occurred */}
+        {!loading && !error && recipes.length === 0 && (
+          <Card className="w-full">
+            <CardHeader>
+              <CardTitle>Inicialización de la Base de Datos</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="mb-4 text-gray-500">
+                Si es la primera vez que usas la aplicación, haz clic en el botón para inicializar la base de datos con las recetas.
+              </p>
+              <SeedDatabase />
+            </CardContent>
+          </Card>
+        )}
+        {/* Show PDF button only if recipes exist */}
         {recipes.length > 0 && <RecipePDFButton recipes={recipes} />}
       </div>
 
       {loading && <p className="text-center">Cargando recetas...</p>}
       {error && <p className="text-center text-red-500">{error}</p>}
-      {!loading && !error && <RecipeList recipes={recipes} />}
+      {!loading && !error && recipes.length > 0 && <RecipeList recipes={recipes} />}
+      {!loading && !error && recipes.length === 0 && (
+        <p className="text-center text-gray-500">No hay recetas disponibles aún.</p>
+      )}
     </div>
   )
 }
-
-
-

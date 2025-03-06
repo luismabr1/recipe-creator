@@ -6,8 +6,6 @@ import SeedDatabase from "@/scripts/seed-database"
 import RecipePDFButton from "@/components/recipe-pdf" // Assuming this is the correct import
 import { supabase } from "@/lib/supabase"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input" // Assuming you have an Input component
 import { ChevronDown, ChevronUp } from "lucide-react"
 
 export default function Home() {

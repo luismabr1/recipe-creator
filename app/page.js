@@ -14,7 +14,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [isRecipeListOpen, setIsRecipeListOpen] = useState(true) // State for collapsible list
-  const [searchQuery, setSearchQuery] = useState("") // State for search input
+  const [searchQuery] = useState("") // State for search input
 
   // Fetch recipes from Supabase on mount
   useEffect(() => {

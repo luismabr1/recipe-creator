@@ -1,0 +1,94 @@
+[
+  {
+    "preparacion": "Aioli Trufado",
+    "vajilla": "",
+    "vida_util": "2 semanas",
+    "ingredientes": {
+      "Mayonesa": "1.5kg",
+      "Ajo Rostizado": "300gr",
+      "Mostaza Djon": "90gr",
+      "Pimienta Negra": "7gr",
+      "Sal": "15gr",
+      "BBQ": "120gr",
+      "Miel": "90gr",
+      "Aceite de trufa": "45gr"
+    },
+    "rendimiento": "",
+    "procedimiento": "Procesamos el ajo rostizado bien hasta que sea una pasta sin grumo y reservamos. En un bowl agregamos la mayonesa, Mostaza djon, bbq, miel, ajo rostizado y aceite de trufa e integramos todo hasta que este bien unificado. Reservamos en campana o bolsa de vacío y guardamos en cava."
+  },
+  {
+    "preparacion": "Ajo Rostizado",
+    "vajilla": "",
+    "vida_util": "",
+    "ingredientes": {
+      "Ajo importado": "1.5",
+      "Aceite oliva": "50gr",
+      "Sal": "3gr",
+      "Pimienta": "2gr"
+    },
+    "rendimiento": "",
+    "procedimiento": "Usamos el ajo entero y cortamos por el lado de la punta conservando la raíz para que no se separe. Colocamos sobre aluminio individualmente y agregamos aceite de oliva, sal y pimienta. Una vez listo llevamos al horno a 160 grados centígrados por 45 minutos. Guardamos al vacío y se lleva a conservación."
+  },
+  {
+    "preparacion": "Arroz Arborio Precocido",
+    "vajilla": "",
+    "vida_util": "1 semana",
+    "ingredientes": {
+      "Arroz Arborio": "500gr",
+      "Vino Blanco": "250gr",
+      "Fondo porcini": "500gr",
+      "Cebolla Blanca": "150gr",
+      "Mantequilla": "30gr",
+      "Ajo": "25gr",
+      "Aceite oliva": "100gr"
+    },
+    "rendimiento": "975",
+    "procedimiento": "En un caldero a fuego medio agregar aceite de oliva y mantequilla e integrar. Una vez alcance temperatura media-alta agregar ajo cortado pequeño y que chille. Incorporar cebolla en brunoise y cristalizar. Agregar el arroz arborio e integrar hasta que quede bien nacarado. Incorporar vino blanco y evaporar el alcohol. Agregar fondo de porcini hasta cubrir el arroz y cocinar a fuego bajo hasta que reduzca. Repetir el paso anterior 3 veces en total. Validar si con las 3 hidrataciones se logró el punto deseado de cocción o si se debe rectificar con una hidratación adicional. Esparcir en una bandeja hasta que quede una capa fina uniforme y dejar que enfríe. Una vez frío, porcionar a 150 gramos por ración y guardar en conservación."
+  },
+  {
+    "preparacion": "Aderezo Tzatziki",
+    "vajilla": "",
+    "vida_util": "",
+    "ingredientes": {
+      "Yogurt": "740gr",
+      "Pepino en brunoise": "222gr",
+      "Ajo importado": "22gr",
+      "Aceite de oliva": "44gr",
+      "Eneldo": "15gr",
+      "Sal": "15gr",
+      "Pimienta blanca": "37gr"
+    },
+    "rendimiento": "",
+    "procedimiento": ""
+  },
+  {
+    "preparacion": "Salsa Bernesa",
+    "vajilla": "",
+    "vida_util": "2 Días",
+    "ingredientes": {
+      "Mantequilla": "430gr",
+      "Base bernesa": "50gr",
+      "Yema de huevo": "2",
+      "Sal": "8gr",
+      "Pimienta Blanca": "2gr",
+      "Estragon deshojado": "10gr"
+    },
+    "rendimiento": "510gr",
+    "procedimiento": "En una olla agregamos la mantequilla y la clarificamos. Una vez lista nuestra mantequilla conservamos un poco la temperatura a 60 grados y reservamos. Batir las yemas en un bowl hasta emulsionar bien las amarillas. Agregamos la base de bernesa a nuestra emulsión de amarillas y seguimos batiendo. Una vez tengamos bien emulsionada nuestra preparación, agregamos la mantequilla temperada en forma de hilo mientras vamos batiendo evitando que se corte. Ya montada nuestra bernesa agregamos estragón cortado finamente, sal y pimienta. Una vez lista guardar en conservación."
+  },
+  {
+    "preparacion": "Base Bernesa",
+    "vajilla": "",
+    "vida_util": "1 Semana",
+    "ingredientes": {
+      "Vino Blanco": "1lt",
+      "Vinagre de Manzana": "250gr",
+      "Cebolla Blanca Brunoise": "50gr",
+      "Diente de Ajo": "1und",
+      "Estragon": "15gr"
+    },
+    "rendimiento": "700gr",
+    "procedimiento": "Cortamos cebolla y ajo en brunoise y reservamos. En una olla agregamos aceite de oliva y dejamos calentar a temperatura media baja. Una vez listo agregamos el ajo y la cebolla hasta cristalizar. Incorporamos vino blanco hasta evaporar alcohol e incorporamos el vinagre de manzana y estragon. Dejar reducir un 70% nuestra elaboración para obtener un concentrado de la misma. Ya terminada reservar en chino o bolsa de vacío y guardar en congelación."
+  }
+]
+
